@@ -1,4 +1,4 @@
-palabra=$1
 
-grep -rin "$1" .
+#script para buscar
 
+grep -r -l --include="*.txt" "home" .
